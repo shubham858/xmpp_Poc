@@ -1,3 +1,4 @@
+//This is client connection 
 const { client, xml, jid } = require("@xmpp/client");
 const debug = require("@xmpp/debug");
 
