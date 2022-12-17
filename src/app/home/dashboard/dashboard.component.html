@@ -1,0 +1,15 @@
+<p>dashboard works!</p>
+
+<h2>Create Stock Form</h2>
+<div class="form-group">
+    <form [formGroup]="stockForm" (ngSubmit)="onSubmit()" >
+        <div class="stock-name">
+            <input type="text" placeholder="Stock Name"
+            name="stockName"
+           formControlName="name">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<a routerLink="/setting" target="_blank">Setting</a>
+<router-outlet></router-outlet>
